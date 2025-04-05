@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Immersive Nature Experience</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section class="hero-section">
+      <video class="hero-video" autoplay muted loop>
+        <source
+          src="https://assets.mixkit.co/videos/preview/mixkit-tree-with-yellow-flowers-1173-large.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+      <div class="hero-content">
+        <h1>Discover Nature's Wonders</h1>
+        <p>
+          Immerse yourself in breathtaking landscapes and experience the beauty
+          of our planet like never before.
+        </p>
+      </div>
+      <div class="scroll-indicator">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <h2>Explore the Beauty Around Us</h2>
+      <p>
+        Nature's splendor is all around us, waiting to be discovered. From the
+        towering mountains to the deepest oceans, our planet offers an endless
+        array of breathtaking sights and experiences. Each ecosystem tells its
+        own unique story, shaped by millions of years of evolution and natural
+        processes.
+      </p>
+      <p>
+        As we journey through these landscapes, we're reminded of the delicate
+        balance that sustains life on Earth. The vibrant colors of a coral reef,
+        the serene stillness of an ancient forest, or the raw power of a
+        waterfall - these experiences connect us to something greater than
+        ourselves.
+      </p>
+
+      <div class="content-grid">
+        <div class="content-card">
+          <img
+            src="https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg"
+            alt="Mountain Landscape"
+            class="card-image"
+          />
+          <div class="card-content">
+            <h3>Mountain Peaks</h3>
+            <p>
+              Discover the majesty of towering peaks that touch the sky, where
+              the air is crisp and the views are endless.
+            </p>
+          </div>
+        </div>
+        <div class="content-card">
+          <img
+            src="https://images.pexels.com/photos/1532771/pexels-photo-1532771.jpeg"
+            alt="Ocean Waves"
+            class="card-image"
+          />
+          <div class="card-content">
+            <h3>Ocean Depths</h3>
+            <p>
+              Explore the mysterious underwater world where colorful marine life
+              thrives in crystal clear waters.
+            </p>
+          </div>
+        </div>
+        <div class="content-card">
+          <img
+            src="https://images.pexels.com/photos/1671324/pexels-photo-1671324.jpeg"
+            alt="Forest Path"
+            class="card-image"
+          />
+          <div class="card-content">
+            <h3>Ancient Forests</h3>
+            <p>
+              Wander through lush green canopies where sunlight filters through
+              leaves in a magical display.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="spacer">
+      Continue scrolling to see the floating video player appear
+    </div>
+
+    <div class="floating-video-container">
+      <video class="floating-video" autoplay muted loop>
+        <source
+          src="https://videos.pexels.com/video-files/1093662/1093662-hd_1920_1080_30fps.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="video-controls">
+        <button class="control-btn play-btn" title="Play/Pause">
+          <i class="fas fa-pause"></i>
+        </button>
+        <button class="control-btn close-btn" title="Close">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
